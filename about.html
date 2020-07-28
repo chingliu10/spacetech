@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+    crossorigin="anonymous">
+
+  <link rel="stylesheet" href="css/main.css">
+  <title>About Me</title>
+</head>
+
+<body>
+  <header>
+    <div class="menu-btn">
+      <div class="btn-line"></div>
+      <div class="btn-line"></div>
+      <div class="btn-line"></div>
+    </div>
+
+    <nav class="menu">
+      <div class="menu-branding">
+        <div class="portrait"></div>
+      </div>
+      <ul class="menu-nav">
+        <li class="nav-item">
+          <a href="index.html" class="nav-link">
+            Home
+          </a>
+        </li>
+        <li class="nav-item current">
+          <a href="about.html" class="nav-link">
+            About Us
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="work.html" class="nav-link">
+            My Work
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="contact.html" class="nav-link">
+            How To Reach Us
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="about">
+    <h1 class="lg-heading">
+      About
+      <span class="text-secondary">Us</span>
+    </h1>
+    <h2 class="sm-heading">
+      Let me tell you a few things about us...
+    </h2>
+    <div class="about-info">
+      <img src="img/portrait.png" alt="Space Tech" class="bio-image" height="150px" width="150px" style="object-fit: cover;">
+
+      <div class="bio">
+        <h3 class="text-secondary">BIO</h3>
+        <p>Spacetech is a technology company started in 2020 based in Dar-es-salaam creating and innovative technology products based on
+          IT industry from software to hardware.We want to establish ourselves as the best choice in computing and information technology.
+        </p>
+      </div>
+
+      <div class="job job-1">
+        <h3>Web / Mobile Development</h3>
+        <h6>Full Stack Developement</h6>
+        <p>
+          we are exprienced software development company our cost-effective solutions are built specificially  for any organization 
+          .We build web and mobile application that will live up to your vision enabling you leverage mobility to maximize 
+          productivity, by using the latest technologies in the industry such as php, nodejs, reactnative, javascript, mysql 
+          and mongodb.
+        </p>
+      </div>
+
+      <div class="job job-2">
+        <h3>Computer Mainteance</h3>
+        <h6>Computer & Networking</h6>
+        <p>We repair and perform Mainteance on computer hardware and software, we offer servers, computer peripherals/accesories
+          by sourcing from local to international markets.therefore we are hereby request a call us for any kind of requirement 
+          of computer parts and services whatever and whenever you need
+        </p>
+      </div>
+
+      <div class="job job-3">
+        <h3>Graphic's Design</h3>
+        <h6>Logo / Templates / video / images</h6>
+        <p>From logo to templates with the best tools in the market adobe xd, illustrator, affter effects, photoshop to lightroom
+          all at your disposal.with design's that are vivid to consumer's eyes that will bring productivity to your business
+          don't hesitate to call us.
+        </p>
+      </div>
+      <div class="job job-4">
+        <h3>Computer Networking</h3>
+        <h6>Routing / TroubleShooting</h6>
+        <p>
+          We provide total management right from architecture design intergration system and interface development to migration 
+          backed by world-class methodologies, well defined solution frameworks and extensive integration experience with tier-1 service providers.
+        </p>
+      </div>
+      <div class="job job-5">
+        <h3>Digital Marketing</h3>
+        <h6>Seo</h6>
+        <p>you want to expand your business you are at the right place, you will grow from instagram, facebook , twiiter you name it,
+          without leaving your business behind from local marketing to international marketing.your target consumer will reach you easily 
+          and fast.
+        </p>
+      </div>
+    </div>
+  </main>
+
+  <footer id="main-footer">
+    Copyright &copy; <span class="year"></span>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script>
+    let year = new Date();
+    const mwaka = document.querySelector('.year');
+    mwaka.textContent = year.getFullYear();
+  </script>
+</body>
+
+</html>
