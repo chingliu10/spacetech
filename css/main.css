@@ -180,7 +180,7 @@ main#home h1 {
     grid-area: bioimage;
     margin: auto;
     border-radius: 50%;
-    border: #eece1a 3px solid;
+    border: white 3px solid;
 }
 .about-info .bio {
     grid-area: bio;
